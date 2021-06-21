@@ -4,23 +4,24 @@
 <head>
     <title>Blu-Ray&trade; Spot - Our Products</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <h1>Our Products</h1>
 
     <!--Website Navigation-->
-    <section id="products_webnav">
+    <section id="navigation">
         <h2>Website Navigation</h2>
-        <ul>
-            <li><a href="../index.html">Home Page</a></li>
-            <li>Our Products</li>
-            <li><a href="about.html">About Us</a></li>
-        </ul>
+        <nav>
+            <a href="../index.html">Home Page</a>
+            <span>Products</span>
+            <a href="about.html">About Us</a>
+        </nav>
     </section>
 
     <!--List of products-->
-    <section id="products_list">
+    <section>
         <!--List header-->
         <div>
             <h2>Catalog</h2>
@@ -30,30 +31,31 @@
             </p>
         </div>
 
-        <div id="#products_list_indiv">
-        <h3>Individual items</h3>
-        <ul>
-            <li>1 Blu-Ray disk - $15</li>
-            <li>5 Blu-Ray disk pack - $65</li>
-            <li>10 Blu-Ray disk pack - $130</li>
-            <li>Blu-Ray player - $150</li>    
-        </ul>
+        
+        <section class="product-list">
+            <h3>Individual items</h3>
+            <ul>
+                <li>1 Blu-Ray disk - $15</li>
+                <li>5 Blu-Ray disk pack - $65</li>
+                <li>10 Blu-Ray disk pack - $130</li>
+                <li>Blu-Ray player - $150</li>    
+            </ul>
+        </section>
+
+        <div>
+            <img src="../images/product-image-2.png" alt="Blu-Ray&trade; Player" class="product-images">
+            <img src="../images/product-image-1.png" alt="You can buy a wide variety of films that are available on Blu-Ray&trade;"class="product-images">  
         </div>
 
-        <div id="products_images_1">
-            <img src="../images/player.png" alt="Blu-Ray&trade; Player" width="250" height="250">
-            <img src="../images/blu-rays.png" alt="You can buy a wide variety of films that are available on Blu-Ray&trade;" width="250" height="250">  
-        </div>
-
-        <div id="products_list_bundle">
+        <section class="product-list">
             <h3>Bundles</h3>
             <ul>
                 <li>1 Blu-Ray disk with player bundle - $160</li>
                 <li>5 Blu-Ray disk with player bundle - $210</li>
             </ul>
-        </div>
+        </section>
 
-        <img src="../images/blu-rays2.png" alt="You can get anything from The Avengers to John Wick!" width="500" height="250">
+        <img src="../images/collection-image.png" alt="You can get anything from The Avengers to John Wick!" id="collection-image">
     </section>
 
 </body>

@@ -4,73 +4,64 @@
 <head>
     <title>Blu-Ray&trade; Spot - Home</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">ß
 </head>
 
 <body>
     <h1>Welcome to Blu-Ray&trade; Spot!</h1>
     
     <!--Website Navigation-->
-    <section id="home_webnav">
+    <section id="navigation">
         <h2>Website Navigation</h2>
-        <ul>
-            <li>Home Page</li>
-            <li><a href="html/products.html">Our Products</a></li>
-            <li><a href="html/about.html">About Us</a></li>
-        </ul>
-    </section>
-
-    <!--Page Navigation-->
-    <section id="home_pagenav">
-        <h2>Page Naviation</h2>
-        <ul>
-            <li><a href="index.html#home_description">What We Do</a></li>
-            <li><a href="index.html#home_explanation">What exactly is Blu-Ray&trade;?</a></li>
-        </ul>
+        <nav>
+            <span>Home Page</span>
+            <a href="html/products.html">Our Products</a>
+            <a href="html/about.html">About Us</a>
+        </nav>
     </section>
 
     <!--Description-->
-    <section id="home_description">
-        <h2>What We Do</h2>
+    <section class="description">
+        <h2 class="description-headings">What We Do</h2>
 
         <!--Main Description Paragraph-->
         <p>
             Blu-Ray&trade; Spot is <em>the</em> place to go for Blu-Ray&trade; disks and Blu-Ray&trade; related technologies
             With our service, you can <em>buy</em>, <em>rent</em> or even <em>sell</em> new or old Blu-Ray&trade; disks. 
             You can also buy or rent Blu-Ray&trade; players and related accessories to store your collection.
-        </p>
-
-        <!--Second Description Paragraph-->
-        <p>
             Sign up now with the offer code <strong>Cruella</strong> and get 50% off your first
             5 purchases (not including rentals). You can also receive a free code
-            to get the Blu-Ray&trade; version of Disney&trade;'s <em>Cruella (2021)</em> <strong>FOR FREE</strong>
+            to get the Blu-Ray&trade; version of Disney's&trade; <em>Cruella (2021)</em> <strong>FOR FREE</strong>
             when it comes out nationwide.
         </p>
     </section>
 
-    <!--Video-->
-    <section id="home_explanation">
-        <h2>What exactly is Blu-Ray&trade;?</h2>
+    <!--Video and explanation-->
+    <section>
+        <h2 class="description-headings">What exactly is Blu-Ray&trade;?</h2>
 
-        <img src="images/example.png" alt="Blu-Ray&trade; Disks" width="300" height="300">
-        
-        <h3>Here is a video explanation...</h3>
-        <video width="300" height="200" controls> 
+        <h3 class="description-headings">Here is a video explanation...</h3>
+        <video id="video" controls> 
             <source src="video/explanation_video.mp4" type="video/mp4">
         </video>
 
-        <h3>Why Blu-Ray&trade;?</h3>
-        <p>
-            The Blu-Ray&trade; format is the future for owning hard copies of your favorite films.
-        </p>
+        <section class="description">
+            <h3 class="description-headings">Why Blu-Ray&trade;?</h3>
+            <p>
+                The Blu-Ray&trade; format is the future for owning hard copies of your favorite films. It is <strong>the</strong> 
+                media format, letting you watch your favorite movies in 720p or 1080p. Blu-Ray disks can also store more than a normal DVD.
+            </p>
 
-        <h3>How do you use Blu-Ray&trade; disks?</h3>
-        <p>
-            Blu-Ray&trade; disks must be played on a device that can handle the format. Include
-            but are not limited to: video game consoles, Blu-Ray&trade; disk players (<em><a href="html/products.html#products_list_indiv">Purchase your own here</a></em>)
-            Regular Blu-Rays&trade; work differently than regular DVDs and require a different player. Blu-Rays&trade; are also region locked in the same way that 
-            DVDs are region locked. The disk must be a part of the same region as the player.
-        </p>
+            <img src="images/home-image.jpeg" alt="Blu-Rays"&trade id="home-image">
+
+            <h3>How do you use Blu-Ray&trade; disks?</h3>
+            <p>
+                Blu-Ray&trade; disks must be played on a device that can handle the format. Include
+                but are not limited to: video game consoles, Blu-Ray&trade; disk players (<em><a href="html/products.html#navigation">Purchase your own here</a></em>)
+                Regular Blu-Rays&trade; work differently than regular DVDs and require a different player. Blu-Rays&trade; are also region locked in the same way that 
+                DVDs are region locked. The disk must be a part of the same region as the player.
+            </p>
+        </section>
     </section>
 </body>
 </html>
