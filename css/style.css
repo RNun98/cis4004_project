@@ -127,6 +127,10 @@ body {
     background-color: #748694;
 }
 
+form {
+    background-color: rgb(204, 114, 82);
+}
+
 h1 {
     text-align: center;
     background-color:rgb(204, 114, 82);
